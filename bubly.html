@@ -81,104 +81,74 @@
 			</nav>
 		</div><!--//force-overflow-->
 	</header>
+
 	
 	<div class="main-wrapper">
 	    <section class="cta-section theme-bg-light py-5">
-		    <div class="container text-center single-col-max-width">
-			    <h2 class="heading">Portfolio</h2>
-			    <div class="intro">
-				<p>Check out my ongoing and previous projects.</p>
+		    <div class="container single-col-max-width">
+			    <h2 class="heading text-center">Bubly</h2>
+			    <div class="project-intro text-center">
+					<p class="mb-0 lead">New Hard Seltzer Product of Pepsico</p>
 				</div>
-					<div> 
-						<p>Want to get help with your project ot just to say hi?</p>
-					</div>
-			    <a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane mr-2"></i>Contact Me</a>
-			    	    
+			    
 		    </div><!--//container-->
 	    </section>
-		
-		<section class="projects-list px-3 py-5 p-md-5">
+	    <section class="project px-3 py-5 p-md-5">
 		    <div class="container">
-			    <div class="text-center">
-				    <ul id="filters" class="filters mb-5 mx-auto pl-0">
-		                <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".coding">Data Analytics & Programming</li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".business">Market Research, Finance, & Strategy </li>
-		                <li class="type  mb-3 mb-lg-0" data-filter=".pm">Product Management</li>
-		            </ul><!--//filters-->
-			    </div>
-	            
-			    <div class="project-cards row isotope">
-					<!-- start of a project -->
-					<div class="isotope-item col-md-6 mb-5 coding">	
-						<div class="card project-card">
-							<div class="row no-gutters">
-								<div class="col-lg-4 card-img-holder">
-									<img src="assets/images/personal.jpg" class="card-img" alt="image">
-								</div>
-								<div class="col-lg-8">
-									<div class="card-body">
-										<h5 class="card-title"><a href="index.html" class="theme-link">Personal Website</a></h5>
-										<p class="card-text">Built a personal website (i.e., this website) using HTML, CSS, Bootstrap, and JavaScript.
-											 I will continue to update my website as I complete more projects and gain additional experience.</p>
-										<p class="card-text"><small class="text-muted">#html #css #bootstrap #javascript</small></p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="index.html"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="index.html">
-										<i class="fas fa-eye mr-2"></i>View Project
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-			
-				</div><!--//row-->
-				<div class="isotope-item col-md-6 mb-5 business">	
-					<div class="card project-card">
-						<div class="row no-gutters">
-							<div class="col-lg-4 card-img-holder">
-								<img src="assets/images/bubly.png" class="card-img" alt="image">
-							</div>
-							<div class="col-lg-8">
-								<div class="card-body">
-									<h5 class="card-title"><a href="bubly.html" class="theme-link">Bubly Capstone Project </a></h5>
-									<p class="card-text">Developed go-to-market strategies for a PepsiCo new product - Bubly Hard Seltzer that
-										brings an NPV of $739.5M by 2022.</p>
-									<p class="card-text"><small class="text-muted">#go-to-market #strategy #consulting #product #marketing</small></p>
-								</div>
-							</div>
+			    <div class="project-meta media flex-column flex-md-row p-4 theme-bg-light">
+				    <img class="project-thumb mb-3 mb-md-0 mr-md-5 rounded d-none d-md-inline-block" src="assets/images/bubly.png" alt="">
+					<div class="media-body">
+					    <div class="client-info">
+						    <h3 class="client-name font-weight-bold mb-4">Bubly</h3>
+						    <ul class="mb-3">
+							    <li class="mb-2">Conducted market research and analysis to identify opportunities for PepsiCo</li>
+								<li class="mb-2">Developed go-to-market strategies that brings an <b>NPV of $739.5M by 2022</b></li>
+								<li class="mb-2">Placed top 2 of the capstone class - surpassing <b>12 other team projects</b></li>
+						    </ul>
 						</div>
-						<div class="link-mask">
-							<a class="link-mask-link" href="bubly.html"></a>
-							<div class="link-mask-text">
-								<a class="btn btn-secondary" href="bubly.html">
-									<i class="fas fa-eye mr-2"></i>View Project
-								</a>
-							</div>
-						</div><!--//link-mask-->
-					</div><!--//card-->
-				</div><!--//col-->
-		
-			</div><!--//row-->
+						<div class="client-info">
+						    <h5 class="font-weight-bold">Tags:</h3>
+						    <p>#go-to-market #strategy #consulting #product #marketing</p>
+					    </div>						
+					</div><!--//media-body-->
+				</div><!--//project-meta-->
+				<!-- <div class="mt-5 d-flex justify-content-center">
+					<iframe width="672" height="378" src="https://www.youtube.com/embed/FCu-5K2XlT0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div> -->
+
+				<div id="adobe-dc-view" class="mt-5 mx-auto" style="height: 432px; width: 600px;"></div>
+				
+				<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+				<script type="text/javascript">
+					document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+						var adobeDCView = new AdobeDC.View({clientId: "5626a94510a84c86bc56718dcfbf5c12", divId: "adobe-dc-view"});
+						adobeDCView.previewFile({
+							content:{location: {url: "https://raw.githubusercontent.com/linhhptran/linhhptran.github.io/master/assets/pdfs/Bubly.pdf"}},
+							metaData:{fileName: "bubly.pdf"}
+						}, {embedMode: "SIZED_CONTAINER"});
+					});
+				</script>
+
+
 
 		    </div>
 	    </section>
-    
+	    
+	    <section class="promo-section theme-bg-light py-5 text-center">
+		    <div class="container single-col-max-width">
+                <div class="text-center"><a class="btn btn-primary" href="portfolio.html" target="_blank"><i class="fas fa-laptop-code mr-2"></i>View Other Projects</a></div>
+		    </div><!--//container-->
+	    </section><!--//promo-section-->
+	    
     </div><!--//main-wrapper-->
+
 
 	<!-- Javascript -->          
 	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
 	<script src="assets/plugins/popper.min.js"></script> 
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script> 
-    <script type="text/javascript" src="assets/js/isotope-custom.js"></script>
-	
+	<script src="assets/js/testimonials.js"></script>  
 	
 	<!-- Dark Mode -->
 	<script src="assets/plugins/js-cookie.min.js"></script>
