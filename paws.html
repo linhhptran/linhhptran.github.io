@@ -134,9 +134,15 @@ your pet deserves their own vacation </p>
 <!-- CSS for Styling -->
 <style>
     .dog-gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        display: flex;
+        flex-wrap: wrap;
         gap: 16px;
+        justify-content: space-between;
+    }
+
+    .dog-photo {
+        flex: 1 1 calc(33.33% - 16px); /* 3 items per row with space in between */
+        box-sizing: border-box;
     }
 
     .dog-photo img {
