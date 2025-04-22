@@ -117,22 +117,36 @@ your pet deserves their own vacation </p>
 </div>					
 				</div><!--//media-body-->
 				</div><!--//project-meta-->
-			    
-				<div id="adobe-dc-view" class="mt-5 mx-auto" style="height: 432px; width: 600px;"></div>
-				<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-				<script type="text/javascript">
-					document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-						var adobeDCView = new AdobeDC.View({clientId: "fbec0cf6593a4aa097c3b98666a0ed7a", divId: "adobe-dc-view"});
-						adobeDCView.previewFile({
-							content:{location: {url: "https://raw.githubusercontent.com/linhhptran/linhhptran.github.io/master/assets/pdfs/prd-yelp-match.pdf"}},
-							metaData:{fileName: "prd-yelp-match.pdf"}
-						}, {embedMode: "SIZED_CONTAINER"});
-					});
-				</script>
+			    <!-- Section for Dog Photos -->
+<div class="dog-gallery">
+    <div class="dog-photo">
+        <img src="IMG_1888.jpg" alt="Fynn">
+    </div>
+    <div class="dog-photo">
+        <img src="puffy.jpg" alt="Puffy">
+    </div>
+    <div class="dog-photo">
+        <img src="bright haru.jpg" alt="Haru">
+    </div>
+    <!-- Add more photos as needed -->
+</div>
 
+<!-- CSS for Styling -->
+<style>
+    .dog-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 16px;
+    }
 
+    .dog-photo img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+</style>
 
-		    </div>
 	    </section>
 	    
 	    <section class="promo-section theme-bg-light py-5 text-center">
